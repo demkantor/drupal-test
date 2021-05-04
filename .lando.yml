@@ -14,7 +14,7 @@ services:
     type: 'php:7.4'
     via: apache
     xdebug: false
-    webroot: .
+    webroot: web
     overrides:
       environment:
         SIMPLETEST_BASE_URL: 'https://appserver'

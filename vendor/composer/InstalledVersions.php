@@ -27,12 +27,12 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '9.1.7',
-    'version' => '9.1.7.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => 'e9ab0d3e60f9034fc4d635e70a03576db651fe0a',
     'name' => 'drupal/recommended-project',
   ),
   'versions' => 
@@ -202,6 +202,15 @@ private static $installed = array (
       array (
         0 => '9.1.7',
       ),
+    ),
+    'drupal/components' => 
+    array (
+      'pretty_version' => '2.4.0',
+      'version' => '2.4.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-2.4',
     ),
     'drupal/config' => 
     array (
@@ -491,6 +500,15 @@ private static $installed = array (
         0 => '9.1.7',
       ),
     ),
+    'drupal/emulsify_twig' => 
+    array (
+      'pretty_version' => '2.0.0',
+      'version' => '2.0.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '2.0.0',
+    ),
     'drupal/entity_reference' => 
     array (
       'replaced' => 
@@ -745,12 +763,12 @@ private static $installed = array (
     ),
     'drupal/recommended-project' => 
     array (
-      'pretty_version' => '9.1.7',
-      'version' => '9.1.7.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => 'e9ab0d3e60f9034fc4d635e70a03576db651fe0a',
     ),
     'drupal/responsive_image' => 
     array (
@@ -928,6 +946,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '68e418ec08fbfc6f58f6fd2eea70ca8efc8cc7d5',
+    ),
+    'emulsify-ds/emulsify-drupal' => 
+    array (
+      'pretty_version' => '2.2.0',
+      'version' => '2.2.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '1a158cc4b00b44e8c1c6f31969e3b2c2146ec6b4',
     ),
     'guzzlehttp/guzzle' => 
     array (
